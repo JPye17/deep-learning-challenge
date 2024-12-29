@@ -8,11 +8,11 @@ Preprocess the data:
 * The EIN and NAME columns were removed from the input data as they are identification columns and not useful as features or targets.
 
 Compile, Train, and Evaluate the Model
-The model consists of three hidden layers with 80, 30, and 1 neurons, respectively, and ReLU activation functions. The output layer uses a sigmoid activation function for binary classification. The structure was chosen to provide a balance between complexity and the potential for overfitting, while maintaining the ability to learn complex patterns in the data.
+The model consists of three hidden layers with 80, 30, and 1 neurons, respectively, and ReLU and sigmoid activation functions. The output layer uses a sigmoid activation function for binary classification. The structure was chosen to provide a balance between complexity and the potential for overfitting, while maintaining the ability to learn complex patterns in the data.
 
 Optimize the Model
 
-The iniatial test show an accuracy of 73-74% which is below desired. 
+The iniatial test show an accuracy of 72.9& which is below desired. 
 
 Summary:
 
